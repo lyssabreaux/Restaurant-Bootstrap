@@ -10,16 +10,21 @@
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </head>
 <body>
+<script>
+$(document).ready(function(){
+    $('[data-toggle="tooltip"]').tooltip();   
+});
+</script>
   <nav class="navbar navbar-default">
   <div class="container-fluid">
     <div class="navbar-header">
       <a class="navbar-brand" href="#">Proposition Chicken</a>
     </div>
     <ul class="nav navbar-nav">
-      <li class="active"><a href="#">Home</a></li>
-      <li><a href="https://lyssabreaux.github.io/Restaurant-Bootstrap/aboutus.html">About Us</a></li>
-      <li><a href="https://lyssabreaux.github.io/Restaurant-Bootstrap/menu.html">Menu</a></li>
-      <li><a href="https://lyssabreaux.github.io/Restaurant-Bootstrap/location.html">Location</a></li>
+      <li class="active"><a href="https://lyssabreaux.github.io/Restaurant-Bootstrap/index.html" data-toggle="tooltip" title="Click to go home!">Home</a></li>
+      <li><a href="https://lyssabreaux.github.io/Restaurant-Bootstrap/aboutus.html" data-toggle="tooltip" title="Click for About Us!">About Us</a></li>
+      <li><a href="https://lyssabreaux.github.io/Restaurant-Bootstrap/menu.html" data-toggle="tooltip" title="Click for the Menu!">Menu</a></li>
+      <li><a href="https://lyssabreaux.github.io/Restaurant-Bootstrap/location.html" data-toggle="tooltip" title="Click to see location!">Location</a></li>
     </ul>
   </div>
   </nav>
